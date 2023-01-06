@@ -22,8 +22,8 @@ function isPalindrome(word) {
 */
 
 /*
-  Add written explanation of your solution here
-A string is considere a plindrome if the it is read forward and read backwards it returns the same result for example nursesrun
+  
+A string is considered a palindrome if the it is read forward and read backwards it returns the same result for example "nursesrun"
   */
 
 // You can run `node index.js` to view these console logs
@@ -34,8 +34,13 @@ if (require.main === module) {
 
   console.log("");
 
-  onsole.log("Expecting: true");
+  console.log("Expecting: true");
   console.log("=>", isPalindrome("nursesrun"));
+
+  console.log("");
+
+  console.log("Expecting: false");
+  console.log("=>", isPalindrome("salted"));
 
   console.log("");
 
